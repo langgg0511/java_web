@@ -1,0 +1,99 @@
+/* CSS Document */
+
+#header
+{
+
+ height:170px;
+ background:#a36209;
+}
+#content
+{
+height:560px;
+}
+
+#inside
+{
+ width:1000px;
+ height:170px;
+ background:#a36209;
+ margin: 0 auto;
+}
+
+#bg
+{
+ width:1000px;
+ height:600px;
+ overflow:hidden;
+margin:0 auto;
+padding:0px;
+}
+#loginbtn input{
+background-color: #555555;
+color:#FFFFFF;
+border-radius: 2px;
+border: none;
+font-size: 12px;
+cursor: pointer;
+padding: 5px 25px;
+margin-left:-30px;
+}
+ #login-form
+{
+	position:relative;
+	margin: 0 auto;
+	z-index: 1000;
+	left: 0px;
+	top: 16px;
+}
+#login-frame{
+height: 220px;
+width: 400px;
+background-color:rgba(185, 182, 182,0.7);
+background-repeat: no-repeat;
+border-radius:20px 20px;
+background-size: auto auto;
+margin-left:500px;
+position:relative;
+}
+
+.firstp{
+padding: 50px 50px 6px 50px;
+}
+
+.secondp
+{
+padding: 0px 50px 0px 50px;
+}
+
+label
+{
+font:Arial, Helvetica, sans-serif
+}
+
+#forget-pwd
+{
+padding:0 0 0px 250px;
+font-size: 12px;
+}
+#forget-pwd a
+{
+color:#000000;
+ text-decoration: none;
+}
+#loginbtn
+{
+padding:0 0 0 180px;
+}
+
+#footer{
+background: #42454a;
+height: 100px;
+width: 1000px;
+color:#FFFFFF;
+font-size:12px;
+text-align:center;
+}
+#xiabiao
+{
+padding:10px 0 0 0;
+}

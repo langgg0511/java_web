@@ -1,0 +1,23 @@
+<c3p0-config>
+	<!-- 命名的配置 -->
+	<named-config name="epms">
+		<!-- 连接数据库的4项基本参数 -->
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/epms?serverTimezone=UTC</property>
+		<property name="user">root</property>
+		<property name="password">root</property>
+		<!-- 如果池中数据连接不够时一次增长多少个 -->
+		<property name="acquireIncrement">5</property>
+		<!-- 初始化连接数 -->
+		<property name="initialPoolSize">20</property>
+		<!-- 最小连接受 -->
+		<property name="minPoolSize">10</property>
+		<!-- 最大连接数 -->
+		<property name="maxPoolSize">40</property>
+		<!-- -JDBC的标准参数，用以控制数据源内加载的PreparedStatements数量 -->
+		<property name="maxStatements">0</property>
+		<!-- 连接池内单个连接所拥有的最大缓存statements数 -->
+		<property name="maxStatementsPerConnection">5</property>
+	</named-config>
+</c3p0-config>
+

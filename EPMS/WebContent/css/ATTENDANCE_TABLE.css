@@ -1,0 +1,46 @@
+#tag{
+    padding-top: 25px;
+    padding-left: 20px;
+    float: right;
+    
+    position:absolute;
+    top:60px;
+    left:397px;
+    width:62%;
+}
+#tag > a{
+    text-decoration: none;
+    font-size: 16px;
+}
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.attendance-table-main{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.attendance-table-main > table{
+    margin:20px auto;
+    background-color: #fff;
+}
+
+.attendance-table-main > input{
+    margin: 0 15px;
+}
+
+.attendance-table-path{
+    margin-left: 15px;
+}
+
+.attendance-table-path > a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.margin-l{
+    margin-left: 15px;
+}

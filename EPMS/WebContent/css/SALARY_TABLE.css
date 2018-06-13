@@ -1,0 +1,46 @@
+
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+
+#tag{
+    padding-top: 25px;
+    padding-left: 20px;
+    float: right;
+
+	position:absolute;
+    top:60px;
+    left:397px;
+    width:62%;
+}
+
+
+.salary-table-main{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.salary-table-main > table{
+    margin:20px auto;
+    background-color: #fff;
+}
+
+.salary-table-main > input{
+    margin: 0 15px;
+}
+
+.salary-table-path{
+    margin-left: 15px;
+}
+
+.salary-table-path > a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.margin-l{
+    margin-left: 15px;
+}

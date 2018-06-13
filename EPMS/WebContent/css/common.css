@@ -1,0 +1,57 @@
+.head {
+    background: #2aabd2;
+    height: 60px;
+    line-height: 60px;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.exit-user {
+    font-size: 14px;
+    color: white;
+    float: right;
+}
+
+.exit-user a {
+    color: white;
+}
+
+.menu {
+    background: gray;
+}
+
+.padding-l-none{
+    padding-left: 0;
+}
+
+
+#accordion {
+    float: left;
+    width: 270px;
+}
+
+.panel-title {
+    height: 30px;
+    line-height: 30px;
+
+}
+.panel-title > a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+.panel-title > a:hover{
+    color: #2d9eff;
+}
+
+.link {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.link:hover {
+    color: #2d9eff;
+}

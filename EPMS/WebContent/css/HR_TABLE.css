@@ -1,0 +1,35 @@
+
+#tag{
+    padding-top: 25px;
+    padding-left: 20px;
+    float: right;
+    position:absolute;
+    top:60px;
+    left:397px;
+    width:62%;
+}
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+
+.hr-table-main{
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.hr-table-main > table{
+    margin:20px auto;
+    background-color: #fff;
+}
+
+.hr-table-path{
+    margin-left: 15px;
+}
+
+.hr-table-path > a{
+    text-decoration: none;
+    font-size: 16px;
+}
